@@ -55,11 +55,15 @@
         <h1>Contact Us</h1>
         <p>Do you have any question? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
 
-        <form action="mail.php" method="post">
-
-            <input type="text" name="name" id="name">
-            <input type="email" name="email" id="email">
-            <input type="submit" value="Fire away">
+        <form action="mailto:bryanyan240@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name:</label>
+            <input type="text" name="yourName" value=""><br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value=""><br>
+            <label>Your Message:</label><br>
+            <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
+            <input type="submit" name="" id="">
+    
         </form>
 
     </div>
